@@ -1,0 +1,160 @@
+body{
+	background-image: url("Images/background.jpg");
+}
+
+h1{
+	font-family:"Times New Roman", Times, serif;
+	color: gray;
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: white;
+}
+
+p{
+	font-size: 40px;
+	font-family:"Helvetica", Helvetica, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.boxedImg {
+  width: 500px;
+  border: 2px solid gray;
+  margin: 10;
+}
+
+.boxedClass {
+  width: 700px;
+  border: 10px solid blue;
+  padding: 50px;
+  margin: 20px;
+}
+
+#websiteName {
+	font-size: 40px;
+  float:left;
+  font-color: white;
+}
+
+.bottomBorder{
+  border-bottom: 2px solid gray;
+}
+
+.contentContainer {
+  background-color: #F0FFFF;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  padding: 20px;
+}
+
+.contentRow {
+  background-color: #ededed;
+  max-width: 1280px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0px;
+}
+
+.contentCard {
+  vertical-align: top;
+  display: inline-block;
+  max-width: 100%;
+  width: calc(100% - 20px);;
+  height: 500px;
+  white-space: normal;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 900px){
+  .contentCard {
+    display: inline-block;
+    max-width: calc(50% - 20px);
+    width: 640px;
+    height: 500px;
+    white-space: normal;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+}
+
+.icelandPicture{
+	width:500px;
+	height:500px;
+	border:2px solid gray;
+	margin:50;
+}
+
+.blueBackground {
+      background-color: #147cad;
+}
+
+.pictureBackground {
+  background-image: url("Images/iceland.jpg");
+  background-size: 620px 500px;
+}
+
+.secondPictureBackground {
+  background-image: url("Images/webdevelopment.jpg");
+  background-size: 620px 500px;
+}
+
+.greenBackground {
+    background-color: green;
+}
+
+.blackBackground {
+      background-color: rgb(0,0,0);
+
+footer {
+  padding: 10px 20px;
+  background: #666;
+  color: white;
+}
